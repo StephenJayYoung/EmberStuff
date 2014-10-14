@@ -12,7 +12,3 @@ if (window.location.search.indexOf("?test") !== -1) {
   )
 }
 
-App.Router.map(function() {
-  this.route("about", { path: "/about" });
-  this.route("favorites", { path: "/favs" });
-});
