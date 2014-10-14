@@ -9,9 +9,17 @@
 <body>
   <script type="text/x-handlebars">
     <h2>Making some routes, yo</h2>
+    
+    {{#link-to 'index'}}<img class="logo">{{/link-to}}
+
+    <nav>
+      {{#link-to 'about'}}About{{/link-to}}
+      {{#link-to 'favorites'}}Favorites{{/link-to}}
+    </nav>
 
     {{outlet}}
   </script>
+
 
   <script type="text/x-handlebars" id="index">
     <ul>
